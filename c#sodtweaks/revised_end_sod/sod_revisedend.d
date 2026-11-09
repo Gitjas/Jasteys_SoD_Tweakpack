@@ -30,7 +30,8 @@ Journal entries from bdbence 73 do not really match (talk about evidence that PC
 
 APPEND bdcorwin 
 IF WEIGHT #-1
-~Global("C#st_RevisedTrial","GLOBAL",1)~ THEN revised_corwin
+~!AreaCheck("bd0035")
+Global("C#st_RevisedTrial","GLOBAL",1)~ THEN revised_corwin
   SAY #%eet_2%69745 /* ~No. NO. This—it can't be. It just—it can't!~ */
 = @1
 IF ~~ THEN EXTERN bdbence revised_bence_00
@@ -38,7 +39,8 @@ END
 END //APPEND
 APPEND bdcorwij 
 IF WEIGHT #-1
-~Global("C#st_RevisedTrial","GLOBAL",1)~ THEN revised_corwin
+~!AreaCheck("bd0035")
+Global("C#st_RevisedTrial","GLOBAL",1)~ THEN revised_corwin
   SAY #%eet_2%69745 /* ~No. NO. This—it can't be. It just—it can't!~ */
 = @1
 IF ~~ THEN EXTERN bdbence revised_bence_00

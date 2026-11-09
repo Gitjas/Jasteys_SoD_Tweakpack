@@ -325,6 +325,7 @@ Version 14:
 -New component: "Make Fledgling Vampire in Bloodbark Grove Perma Killable with Stake" with two install options, idea by zelazko (https://www.gibberlings3.net/forums/topic/30427-jasteys-sod-tweakpack/page/8/#findComment-331839). French by JohnBob (11jo), Russian by abalabokhin, Spanish by ElGamerViejuno.
 -New reply options, ideas from Humanoid Taifun (https://forums.beamdog.com/discussion/comment/1219512/#Comment_1219512).
 -New reply options for Caelar should not bork the dialogue progress (added missing variable to advange bd_plot).
+-Dialogue from Corwin should not trigger at wrong moment (added check variable).
 -Updated link to Shai Hulud's Text-Patch.
 
 Version 13:
